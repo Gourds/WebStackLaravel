@@ -20,7 +20,7 @@ services:
     networks:
       - "webstacknet"
   webstack:
-    image: navi:v1.2.1
+    image: arvon2014/webstack-laravel:v1.2.1
     container_name: "wsl"
     ports:
       - 8000:8000
