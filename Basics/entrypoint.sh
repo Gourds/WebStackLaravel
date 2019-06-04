@@ -12,6 +12,7 @@ sed -i "/login-captcha/{n;s/'enable.*/'enable' => ${LOGIN_COPTCHA}/}"  config/ad
 ##php artisan key:generate
 if [ $# -eq 1 ];then
     if [ $1 == 'serve' ];then
+        php artisan key:generate    
         php artisan serve --host=0.0.0.0 --port=8000
     elif [ $1 == 'new-server' ];then
         php artisan key:generate
