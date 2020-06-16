@@ -2,7 +2,7 @@
 
 根据[WebStackLaravel](https://github.com/hui-ho/WebStack-Laravel)项目创建的Docker部署版本，旨在快速进行部署和使用，也总结了一些这个项目的使用经验及排错方法。此后会根据此项目Release版本不定期更新。欢迎使用及建议
 
-- 联系邮箱【arvon2014@gmail.com】
+- 联系邮箱【gourds@yeah.net】
 
 ### 使用说明
 
