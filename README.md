@@ -4,6 +4,10 @@
 
 - 联系邮箱【gourds@yeah.net】
 
+### update
+
+- 根据@itthinker1 的反馈，修改了下启动方式，现在可以直接使用
+
 ### 使用说明
 
 包含直接执行`docker run`的方式以及`docker-compose`的方式，推荐使用docker-compose的方法，另外添加了支持参数的说明
@@ -30,15 +34,8 @@
 ```
 docker-compose up
 ```
-**WARING:**
-当只想启动数据库，不进行初始化的话，需要修改`docker-compose.yml`文件中的`command`指令
-```
-#修改前
-command: ['/entrypoint.sh','new-server']
-#修改后
-command: ['/entrypoint.sh','serve']
-```
-具体可查看`entrypoint.sh`脚本,Dockerfile的默认参数是`serve`
+
+
 
 
 
@@ -53,5 +50,3 @@ php artisan serve --host=0.0.0.0 --port=8000
 ```
 
 - 推荐使用Mysql5.6版本
-
-

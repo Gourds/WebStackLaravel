@@ -34,7 +34,7 @@ services:
       DB_DATABASE: webstack
       DB_USERNAME: webstack
       DB_PASSWORD: Xym8zrnNRpz
-    command: ['/entrypoint.sh','new-server']
+    command: ['/entrypoint.sh','server']
     networks:
       - "webstacknet"
 networks:
