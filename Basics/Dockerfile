@@ -1,7 +1,7 @@
 FROM alpine:3.9
 LABEL "Mail":"arvon2014@gmail.com"\
       "version":"v1.2.1"
-ENV RUN_USER daemon 
+ENV RUN_USER daemon
 ENV RUN_GROUP daemon
 ENV INSTALL_DIR /opt/navi
 ENV DB_HOST 127.0.0.1
@@ -9,9 +9,9 @@ ENV DB_PORT 3306
 ENV DB_DATABASE homestead
 ENV DB_USERNAME homestead
 ENV DB_PASSWORD secret
-ENV LOGIN_COPTCHA true 
+ENV LOGIN_COPTCHA true
 
-ARG WEBSTACK_VERSION=v1.2.1
+ARG WEBSTACK_VERSION=v1.2.2
 ARG DOWNLOAD_URL=https://github.com/hui-ho/WebStack-Laravel/archive/${WEBSTACK_VERSION}.tar.gz
 EXPOSE 8000
 
